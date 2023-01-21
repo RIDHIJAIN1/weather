@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+.weatherBg{
+    background: url(https://247wallst.com/wp-content/uploads/2018/07/beautiful-weather-events-thunderstorm-lightning.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* color: white; */
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.head{
+ color: white;
+ font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.shadow{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(151, 94, 143);
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.weathericon{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.weatherCity{
+    font-size: 35px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weatherTemp{
+    font-size: 55px;
+    font-weight: bold;
 }
